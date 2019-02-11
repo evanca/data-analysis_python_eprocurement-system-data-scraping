@@ -41,19 +41,19 @@ df.info()
 
 **Data quality issues (from visual assessment):**
 
-- [] Null objects
-- [] Wrong file category (should be "Bad quality" if contact email is Null)
-- [] Unnecessary whitespace characters (e.g. "\t", "\n", "\r"...) 
-- [] Incorrect OCR results - wrong characters instead of "@" (e.g. "(Ž", "Ģ", "(G)"...)
-- [] Too long / messy email values (e.g. "CCA.al$ttkaeCatoja.byWa"IUaDskumentarekvizītus...")
-- [] Phone nr. before email (e.g. "Tālruņanumurs12345678Evija.Perkone@*****.lv")
-- [] Wrong contact names (e.g. "kas rīkojas", "parakstot šo", "(paraksts) mH!"...)
-- [] Empty email containing just ".lv"
-- [] Latvian characters in email (e.g. "saimniecība@*****.lv"...)
-- [] Dash and underscore characters in email (e.g. "—_ieva.libkena@*****.lv"...)
-- [] Comma instead of a dot in email
-- [] No contact email
-- [] Duplicates
+- [ ] Null objects
+- [ ] Wrong file category (should be "Bad quality" if contact email is Null)
+- [ ] Unnecessary whitespace characters (e.g. "\t", "\n", "\r"...) 
+- [ ] Incorrect OCR results - wrong characters instead of "@" (e.g. "(Ž", "Ģ", "(G)"...)
+- [ ] Too long / messy email values (e.g. "CCA.al$ttkaeCatoja.byWa"IUaDskumentarekvizītus...")
+- [ ] Phone nr. before email (e.g. "Tālruņanumurs12345678Evija.Perkone@*****.lv")
+- [ ] Wrong contact names (e.g. "kas rīkojas", "parakstot šo", "(paraksts) mH!"...)
+- [ ] Empty email containing just ".lv"
+- [ ] Latvian characters in email (e.g. "saimniecība@*****.lv"...)
+- [ ] Dash and underscore characters in email (e.g. "—_ieva.libkena@*****.lv"...)
+- [ ] Comma instead of a dot in email
+- [ ] No contact email
+- [ ] Duplicates
 
 ## Step 3. Programmatic data cleaning.
 
